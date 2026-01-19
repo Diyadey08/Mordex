@@ -92,7 +92,7 @@ export default function DashboardPage() {
 
   const ethPriceUsd = prices?.base?.price || 2000;
   const depositAmountEth = (parseFloat(depositAmountUsd) / ethPriceUsd).toFixed(6);
-  const hasMinimumDeposit = balance && balance > 0;
+  const hasMinimumDeposit = balance && balance > 0n;
 
   // Debug log
   useEffect(() => {
