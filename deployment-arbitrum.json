@@ -1,0 +1,9 @@
+{
+  "network": "arbitrumSepolia",
+  "chainId": 421614,
+  "contractAddress": "0x485106A5cbc420fdBd5740183910F6ebC364e0fa",
+  "swapRouter": "0x101F443B4d1b059569D643917553c771E1b9663E",
+  "weth": "0x980B62Da83eFf3D4576C647993b0c1D7faf17c73",
+  "usdc": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+  "deployedAt": "2025-12-27T15:01:25.124Z"
+}

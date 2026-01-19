@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false, // Disable to prevent double initialization
   typescript:{
       ignoreBuildErrors: true,
     },
   // Suppress non-critical warnings for optional peer dependencies
   webpack: (config, { isServer }) => {
-
-    
-
     // Ignore optional dependencies that cause warnings
     config.resolve.fallback = {
       ...config.resolve.fallback,
